@@ -10,7 +10,7 @@
  *
  */
 
-this.jukebox = {};
+goog.provide('jukebox.Player');
 
 /*
  * The first parameter @settings {Map} defines the settings of

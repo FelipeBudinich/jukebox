@@ -10,10 +10,8 @@
  *
  */
 
-if (this.jukebox === undefined) {
-	throw "jukebox.Manager requires jukebox.Player (Player.js) to run properly."
-}
-
+goog.provide('jukebox.Manager');
+goog.require('jukebox.Player');
 
 /*
  * This is the transparent jukebox.Manager that runs in the background.
